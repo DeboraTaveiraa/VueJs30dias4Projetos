@@ -18,7 +18,7 @@ Construi esse projeto pois estou iniciando meus estudos no framework e resolvi c
 
 
 ## Tabela de exemplo - programação de estudos e desafios das 4 semanas
-<img src="TabelaDeEstudos.png"><br>
+<img src="TabelaDeEstudos.PNG"><br>
 
 ## DICAS!
 
