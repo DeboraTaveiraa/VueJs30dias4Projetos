@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Adivinhe a Palavra</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div id="app">
+      <div class="left">
+        <h1>Adivinhe a Palavra</h1>
+
+        <h3>É uma <span>{{ categoria }} </span></h3>
+
+        <p
+          class="static"
+          v-bind:class="{ active: respostaOculta, 'text-danger' : respostaVisivel }"
+          hidden
+        >
+          Parabéns, você acertou!!! <br />
+          Resposta: {{ resposta }}
+        </p>
+
+        <p
+          class="static"
+          v-bind:class="{ active: erroOculto, 'text-erro' : erroVisivel }"
+          hidden
+        >
+          Poxa! Não foi dessa vez. Mas não desista. Tente novamente!
+        </p>
+
+        <h4>DICAS:</h4>
+        <p>- Quantidade de letras: <span>{{ qtdLetras }}</span></p>
+        <p>- Cor da fruta: <span>{{ corFruta }}</span></p>
+        <p>- Primeira letra: <span>{{ primaryLetter }}</span></p>
+
+        <input
+          type="text"
+          placeholder="Já adivinhou o que é? Manda ver, digite aqui"
+          v-on:keyup.Enter="analisarResposta"
+        />
+
+        <p class="aviso"><i>* Após digitar dê o Enter</i></p>
+        <button v-on:click="refresh">Nova palavra</button>
+      </div>
+        
+        <img
+          src="homer-pensativo.png"
+          alt="Desenho do Homer Simpson pensando"
+        />
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

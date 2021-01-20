@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@400;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  height: 100vh;
+  background: #f2f2f2;
+  display: flex;
+  justify-content: center;
+}
+
+#app {
+  width: 700px;
+  margin-top: 100px;
+  line-height: 3em;
+  color: #000;
+  font-family: "Heebo", sans-serif;
+  font-weight: 400;
+  font-size: 1.1em;
+  display: flex;
+  align-items: center;
+}
+
+span {
+  color: #ffa62b;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+h1 {
+  color: #75b3e7;
+  font-weight: 700;
+  text-shadow: 0.1em 0.1em 0.1em black;
+}
+
+h3 {
+  font-weight: 400;
+}
+
+input {
+  padding: 10px;
+  width: 400px;
+  border-radius: 10px;
+  border: none;
+  font-size: 1.1em;
+  box-shadow: 0.3em 0.3em 0.3em 0.3em black;
+}
+
+.aviso {
+  font-size: 0.9em;
+}
+
+button {
+  padding: 8px;
+  border-radius: 5px;
+  border: none;
+  color: #fff;
+  background: #75b3e7;
+  font-family: "Heebo", sans-serif;
+  font-size: 1em;
+}
+
+img {
+    margin-left: 10px;
+}
+
+.text-danger, .text-erro {
+  display: inline-block;
+  line-height: 1.5em;
+}
+
+.text-danger {
+    color: #32cd32;
+}
+
+.text-erro {
+  color: red;
+  width: 300px;
+}
