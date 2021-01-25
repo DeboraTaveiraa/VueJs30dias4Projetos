@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./images/icon.png">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
+    <title>Que cor eu uso?</title>
+</head>
+<body>
+
+    <main id="app">
+        <header>
+            <img src="./images/icon.png" width="70" alt="Ícone no formato de um círculo preenchido com linhas coloridas">
+            <h1>Que cor eu uso?</h1>
+        </header>
+        <h3>Use sua imaginação e crie sua própria paleta de cores!</h3>
+
+        <section>
+            <div class="cores">
+                <div class="colors-1" :style="{backgroundColor: cor1}"></div>
+                <div class="colors-1" :style="{backgroundColor: cor2}" ></div>
+                <div class="colors-1" :style="{backgroundColor: cor3}" ></div>
+                <div class="colors-1" :style="{backgroundColor: cor4}"></div>
+            </div>
+
+            <div class="entrada-cores">
+                <label for="box1">Cor 01</label>
+                <input type="text" id="box1" v-model="cor1" placeholder="Ex.: grey">
+            </div>
+            
+            <div class="entrada-cores">
+                <label for="box2">Cor 02</label>
+                <input type="text" id="box2" v-model="cor2" placeholder="Ex.: #000000">
+            </div>
+
+            <div class="entrada-cores">
+                <label for="box3">Cor 03</label>
+                <input type="text" id="box3" v-model="cor3" placeholder="Ex.: rgb(37, 150, 190)">
+            </div>
+
+            <div class="entrada-cores">
+                <label for="box4">Cor 04</label>
+                <input type="text" id="box4" v-model="cor4">
+            </div>
+        </section>
+
+        <button @click="clear">Limpar tudo</button>
+    </main>
+    
+    
+    <script src="vue.js"></script>
+</body>
+</html>
