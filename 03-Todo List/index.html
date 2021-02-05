@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/x-icon" href="./images/list-img.jpg">
+    <title>Todo list</title>
+  </head>
+  <body>
+    <main id="app">
+      <header>
+        <h1><span>TO DO</span> LIST</h1>
+        <img
+          src="images/list-img.jpg"
+          alt="icone de um lista de afazeres"
+          width="60px"
+        />
+      </header>
+
+      <form>
+        <input type="text" v-model="currentTodo" />
+        <button @click.prevent="addTodo"></button>
+      </form>
+
+      <section>
+        <ol>
+          <li
+            v-for="todo in filteredTodos"
+            :key="todo.text"
+            @click="toggleTodo(todo)"
+          >
+            <div>
+              <input class="input-check" type="checkbox" :checked="todo.done" />
+              <label>
+                <!-- se done for = true o texto será riscado -->
+                <del v-if="todo.done"> {{ todo.text }} </del>
+                <span v-else>{{ todo.text }}</span>
+              </label>
+            </div>
+            <img
+              src="images/delete-img.png"
+              @click="deleteTodo(todo)"
+              alt="deletar to-do"
+            />
+          </li>
+        </ol>
+      </section>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="vue.js"></script>
+  </body>
+</html>
