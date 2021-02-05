@@ -10,15 +10,10 @@ Cada semana você se organizará para estudar, ler códigos, ler a documentaçã
 
 E ao final de cada semana, você se desafiará para criar um projeto com tudo que aprendeu durante a semana. Totalizando em 4 projetos (quantidade mínima! Se você conseguir mais que isso, melhor ainda)
 
-Abaixo está uma tabela de exemplo de como estou me organizando.
-
 
 ## Porque criei esse projeto?
 Construi esse projeto pois estou iniciando meus estudos no framework e resolvi compartilhar com vocês. E também é uma forma de eu me sentir mais desafiada e não desistir no meio do caminho!
 
-
-## Tabela de exemplo - programação de estudos e desafios das 4 semanas
-<img src="TabelaDeEstudos.PNG"><br>
 
 ## DICAS!
 
@@ -34,6 +29,12 @@ Esse projeto vai lhe proporcionar novos conhecimentos. E compartilhando com outr
 Let's go!! 🚀
 
 Não esqueçam de usar a **#VueJS30dias4Projetos** nas suas postagens do projeto.
+
+## Conheça meus projetos
+### 3) Todo List
+Demo: https://deborataveiraa.github.io/VueJs30dias4Projetos/03-Todo%20List/
+<p><img src="images/todo-list.gif"></p>
+
 
 **Vamos nos conectar?!** <br><br>
 [![Linkedin Badge](https://img.shields.io/badge/-Débora%20Taveira-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/débora-taveira/)](https://www.linkedin.com/in/débora-taveira/) [![Instagram Badge](https://img.shields.io/badge/-Débora%20Taveira-df3264?style=flat-square&logo=Instagram&logoColor=white&link=https://www.instagram.com/deborataveiracode/)](https://www.instagram.com/deborataveiracode/) [![Gmail Badge](https://img.shields.io/badge/-deborataveirapvh@gmail.com-red?style=flat-square&logo=Gmail&logoColor=white&link=mailto:deborataveirapvh@gmail.com)](mailto:deborataveirapvh@gmail.com) 
