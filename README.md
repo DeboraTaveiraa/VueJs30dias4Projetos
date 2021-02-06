@@ -33,7 +33,7 @@ Não esqueçam de usar a **#VueJS30dias4Projetos** nas suas postagens do projeto
 ## Conheça meus projetos
 ### 3) Todo List
 Demo: https://deborataveiraa.github.io/VueJs30dias4Projetos/03-Todo%20List/
-<p><img src="./images/todo-list.gif"></p>
+![todo-list](https://github.com/DeboraTaveiraa/VueJs30dias4Projetos/blob/main/03-Todo%20List/images/todo-list.gif)
 
 
 **Vamos nos conectar?!** <br><br>
