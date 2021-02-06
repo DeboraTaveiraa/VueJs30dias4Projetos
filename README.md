@@ -36,5 +36,6 @@ Demo: https://deborataveiraa.github.io/VueJs30dias4Projetos/03-Todo%20List/
 ![todo-list](https://github.com/DeboraTaveiraa/VueJs30dias4Projetos/blob/main/03-Todo%20List/images/todo-list.gif)
 
 
+
 **Vamos nos conectar?!** <br><br>
 [![Linkedin Badge](https://img.shields.io/badge/-Débora%20Taveira-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/débora-taveira/)](https://www.linkedin.com/in/débora-taveira/) [![Instagram Badge](https://img.shields.io/badge/-Débora%20Taveira-df3264?style=flat-square&logo=Instagram&logoColor=white&link=https://www.instagram.com/deborataveiracode/)](https://www.instagram.com/deborataveiracode/) [![Gmail Badge](https://img.shields.io/badge/-deborataveirapvh@gmail.com-red?style=flat-square&logo=Gmail&logoColor=white&link=mailto:deborataveirapvh@gmail.com)](mailto:deborataveirapvh@gmail.com) 
