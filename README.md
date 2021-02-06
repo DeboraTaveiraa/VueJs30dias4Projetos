@@ -30,14 +30,6 @@ Let's go!! 🚀
 
 Não esqueçam de usar a **#VueJS30dias4Projetos** nas suas postagens do projeto.
 
-## Conheça meus projetos
-
-### 2) Que cor eu uso?
-Demo: ![Que cor eu uso?](https://deborataveiraa.github.io/VueJs30dias4Projetos/02-Que%20cor%20eu%20uso/)
-
-### 3) Todo List
-Demo: ![Todo List](https://deborataveiraa.github.io/VueJs30dias4Projetos/03-Todo%20List/)
-
 
 
 **Vamos nos conectar?!** <br><br>
