@@ -10,11 +10,11 @@ body {
   background: #f2f2f2;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 #app {
   width: 700px;
-  margin-top: 100px;
   line-height: 3em;
   color: #000;
   font-family: "Heebo", sans-serif;
