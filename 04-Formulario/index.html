@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Formulário</title>
+  </head>
+  <body>
+    <main id="app">
+        <div class="container-left">
+            <h2>Recruta<span>.tech</span></h2>
+            <img src="assets/interation.svg" alt="" width="400" />
+        </div>
+
+        <div class="container-right">
+            <div v-if="buttonStart" class="container-start">
+                <h3 class="h3-start">Queremos te conhecer melhor...</h3>
+                <button class="btStart" @click="startQuestion">Iniciar</button>
+            </div>
+            <template v-else>
+                <template v-if="questions.indexOf(pergunta) !== 3">
+                    <h3>Pergunta {{ actionButton() }} {{ position }} de 3</h3>
+
+                    <div class="box-progress">
+                    <div class="progress" :style="{width}"></div>
+                    </div>
+
+                    <template>
+                        <label>{{ resultQuestion }}</label>
+                        <template v-if="questions.indexOf(pergunta) == 1">
+                            <select v-model="areaSelected">
+                                <option v-for="(area, index) in areas">
+                                    {{ area }}
+                                </option>
+                            </select>
+                        </template>
+                        <template v-else-if="questions.indexOf(pergunta) == 2">
+                            <select v-model="situationSelected">
+                                <option v-for="(status, index) in situacao">
+                                    {{ status }}
+                                </option>
+                            </select>
+                        </template>
+
+                        <template v-else>
+                            <input type="text" v-model="name"/>
+                        </template>
+                    </template>
+                        <div class="buttons">
+                            <button v-show="buttonBack" @click="backQuestion">Voltar</button>
+                            <template v-if="questions.indexOf(pergunta) == 2">
+                                <button
+                                    class="btInicio"
+                                    :class="{btNext: btNextActive, 'btInicio': classDesabled}"
+                                    @click="checkForm"
+                                >
+                                    Finalizar
+                                </button>
+                            </template>
+                            <template v-else>
+                                <button
+                                    class="btInicio"
+                                    :class="{btNext: btNextActive, 'btInicio': classDesabled}"
+                                    @click="checkForm"
+                                >
+                                    Próximo
+                                </button>
+                            </template>
+                        </div>
+                </template>
+
+                <template v-else>
+                    <h3 class="h3-final">Formulário finalizado!</h3>
+                    <img class="fogos" src="assets/correct.gif" alt="ícone de conclusão" width="150">
+                </template>
+            </template>
+        </div>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
+    <script src="vue.js"></script>
+  </body>
+</html>
