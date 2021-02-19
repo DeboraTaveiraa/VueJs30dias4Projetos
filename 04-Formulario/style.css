@@ -118,9 +118,11 @@ select {
   height: 40px;
   border: none;
   border-radius: 10px;
+  cursor: pointer;
 }
 
 .buttons {
+  display: flex;
   width: 100%;
   height: 40px;
   margin-bottom: 20px;
@@ -164,6 +166,10 @@ select {
     height: 400px;
     font-size: 1.1em;
   }
+
+  .container-right h3 {
+      font-size: 1em;
+  }
   /* Barra de progresso */
   .container-right .box-progress {
     max-width: 90%;
@@ -190,30 +196,40 @@ select {
   }
 
   /* buttons */
+  .container-start .btStart {
+    width: 120px;
+    height: 40px;
+    font-size: 1.1em;
+  }
   .container-right button {
     height: 45px;
+  }
+
+  .buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    width: 85%;
   }
 
   .buttons,
   button {
     height: 45px;
-    margin-bottom: 40px;
     font-size: 1em;
   }
 
   .buttons button:nth-child(1) {
-    margin-left: 20px;
+    margin: 0;
+  }
+  .btNext {
+    margin: 0;
   }
 
   .btInicio {
-    margin-left: 220px;
-  }
-
-  .btNext {
-    margin-left: 95px;
+    margin-left: auto;
   }
 
   .gif {
-      width: 100px;
+    width: 100px;
   }
 }
