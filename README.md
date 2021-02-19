@@ -9,8 +9,8 @@ Durante 4 semanas, eu foquei nos estudos de Vue.
 Cada semana me organizei para ler códigos, ler a documentação, assistir a vídeo aulas e praticar, praticar e praticar...
 E ao final de cada semana, me desafiei em criar um projeto com tudo que aprendi durante a semana. Totalizando em 4 projetos!
 
-## 🚀 Porque criei esse projeto?
-Construí esse projeto por estar iniciando meus estudos no framework e foi uma forma de eu me sentir mais desafiada e não desistir no meio do caminho!
+## 🚀 Porque criei o projeto?
+Construí o projeto por estar iniciando meus estudos no framework e foi uma forma de eu me sentir mais desafiada e não desistir no meio do caminho!
 
 ## 🌟 Demo dos meus projetos
 #### 1️⃣ [Adivinhe a Palavra](https://deborataveiraa.github.io/VueJs30dias4Projetos/01-Adivinhe%20a%20Palavra/)
